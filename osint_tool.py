@@ -63,7 +63,7 @@ print(colorama.Fore.BLUE+dns_result)
 
 #Geolocation module
 
-print(colorama.Fore.BLACK + colorama.Style.BRIGHT + "[+] Getting geolocation info..")
+print(colorama.Fore.WHITE + colorama.Style.BRIGHT + "[+] Getting geolocation info..")
 geo_result = ''
 
 #implementing requests for web request
@@ -77,7 +77,7 @@ try:
     geo_result += "[+] State: {}".format(response['state']) + '\n'
 except:
     pass
-print(colorama.Fore.BLACK + geo_result)
+print(colorama.Fore.WHITE + geo_result)
 
 
 #shodan module
