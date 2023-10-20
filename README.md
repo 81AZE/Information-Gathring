@@ -29,7 +29,7 @@ Follow these steps to set up the tool:
 1. Clone the repository to your local machine or download the source code.
 
 ```bash
-git clone https://github.com/yourusername/osint-automation-tool.git
+git clone https://github.com/81AZE/Information-Gathring.git
 ```
 
 2. Navigate to the project directory:
