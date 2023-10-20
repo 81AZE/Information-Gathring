@@ -11,6 +11,7 @@ colorama.init(autoreset=True)
 
 argparse = argparse.ArgumentParser(description="This is a Open-source Automation lool..", usage=" %(prog)s -d DOMAIN ", epilog=colorama.Style.BRIGHT + "This tool is created by Krishanu aka:81az3.")
 argparse.add_argument("-d","--domain",help="Enter the domain name/IP for OSINT.", required=True)
+argparse.add_argument("-o","--output",help="Enter the file to write output to.")
 
 args = argparse.parse_args()
 domain = args.domain
